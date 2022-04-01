@@ -1,0 +1,11 @@
+.nav-link:hover {
+    background-color: green;
+    color: white;
+} 
+
+
+.nav-link:hover .fa {
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
