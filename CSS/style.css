@@ -5,13 +5,27 @@
 
 
 .nav-link:hover .fa-solid {
-    transition: all 1s;
+    transition: all 2s;
     transform: rotate(360deg);
     font-size: 20px;
 }
 
 .nav-link:hover .fa-regular {
-    transition: all 1s;
+    transition: all 2s;
     transform: rotate(360deg);
     font-size: 20px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: yellow;
+    background-color: chocolate;
+    border-radius: 40px;
+    
+}
+
+.jumbotron {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/952/839/large_2x/jungle-cartoon-background-free-vector.jpg);
+    
+
 }
