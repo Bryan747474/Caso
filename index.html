@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Shop</title>
     <link rel="stylesheet" href="CSS/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
@@ -24,7 +24,8 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-success navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/lindo-logo-tienda-mascotas-gato-perro_454510-56.fw.png" width="130" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="img/lindo-logo-tienda-mascotas-gato-perro_454510-56.fw.png"
+                    width="130" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,56 +40,62 @@
                     <a class="nav-link text-white" href=""><i class="fa-solid fa-frog"></i> Exoticos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="https://www.instagram.com/fundacionanimalia/?hl=es"><i class="fa-solid fa-house-chimney-medical"></i> Nuestra Fundación</a>
+                    <a class="nav-link text-white" href=""><i
+                            class="fa-solid fa-house-chimney-medical"></i> Nuestra Fundación</a>
                 </li>
-                
-                
+
+
             </ul>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" data-toggle="modal" data-target="#modalLogin2" href="#"><i class="fa-regular fa-user"></i> Iniciar Sesión</a>
+                        <a class="nav-link text-white" data-toggle="modal" data-target="#modalLogin2" href="#"><i
+                                class="fa-regular fa-user"></i> Iniciar Sesión</a>
                     </li>
                     <div class="modal" id="modalLogin2">
                         <div class="modal-dialog">
-                          <div class="modal-content">
-                      
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                              <h4 class="modal-title">Inisiar sesion</h4>
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Iniciar sesion</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body text-center ">
+                                    <img src="" alt="">
+
+                                    <form action="suscriptor.html" methon="GET">
+                                        <img src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/login_account_enter_door-256.png"
+                                            alt="" width="100">
+
+
+                                        <div class="form-group">
+                                            <label for="txtRut">Nombre usuario</label>
+                                            <input placeholder="Ej: Mono Morado" class="form-control" type="number"
+                                                id="txtRut" name="txtRut">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="txtNombre">Contraseña</label>
+                                            <input placeholder="Ej: *****" class="form-control" type="text"
+                                                id="txtNombre" name="txtNombre">
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+
+                                    <button type="button" class="btn btn-success" data-dismiss="modal">Iniciar
+                                        sesion</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+                                </div>
                             </div>
-                      
-                            <!-- Modal body -->
-                            <div class="modal-body text-center ">
-                                <img src="" alt=""  >
-                              
-                                <form action="suscriptor.html" methon="GET">
-                                <img src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/login_account_enter_door-256.png" alt="" width="100">
-                    
-                    
-                                    <div class="form-group">
-                                    <label for="txtRut">Nombre usuario</label>
-                                    <input  placeholder="Ej: Mono Morado" class="form-control" type="number" id="txtRut" name="txtRut">
-                                    </div>
-                                    <div class="form-group">
-                                    <label for="txtNombre">Contraseña</label>
-                                    <input  placeholder="Ej: *****" class="form-control" type="text" id = "txtNombre" name ="txtNombre">
-                                    </div>
-                                    
-                            </form>
-                            </div>
-                      
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-            
-                              <button type="button" class="btn btn-success" data-dismiss="modal">Iniciar sesion</button>
-                              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                              
-                            </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
 
 
 
@@ -96,68 +103,263 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#"><i class=""></i>|</a>
                     </li>
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link text-white " data-toggle="modal" data-target="#modalLogin" href="#"><i class="fa-solid fa-person-circle-plus"></i> Registrate</a>
+                        <a class="nav-link text-white " data-toggle="modal" data-target="#modalLogin" href="#"><i
+                                class="fa-solid fa-person-circle-plus"></i> Registrate</a>
 
                         <div class="modal" id="modalLogin">
                             <div class="modal-dialog">
-                              <div class="modal-content">
-                          
-                                <!-- Modal Header -->
-                                <div class="modal-header">
-                                  <h4 class="modal-title">Registrarse</h4>
-                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Registrarse</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body text-center ">
+                                        <img src="" alt="">
+
+                                        <form action="suscriptor.html" methon="GET">
+                                            <img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-256.png"
+                                                alt="" width="100">
+
+
+                                            <div class="form-group">
+                                                <label for="txtRut">RUT:</label>
+                                                <input placeholder="Ej: 12345678-9" class="form-control" type="number"
+                                                    id="txtRut" name="txtRut">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="txtNombre">Nombres de usuario</label>
+                                                <input placeholder="Ej: Pablo Herniquez" class="form-control"
+                                                    type="text" id="txtNombre" name="txtNombre">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="txtApellido">Contraseña</label>
+                                                <input placeholder="Ej: Azales 424" class="form-control" type="text"
+                                                    id="txtNombre" name="txtNombre">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="txtTelefono">Telefono:</label>
+                                                <input placeholder="Ej: +569 12345678" class="form-control"
+                                                    type="number" id="txtTelefono" name="txtTelefono">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-success"
+                                            data-dismiss="modal">Registrarse</button>
+                                        <button type="button" class="btn btn-danger"
+                                            data-dismiss="modal">Cerrar</button>
+
+                                    </div>
                                 </div>
-                          
-                                <!-- Modal body -->
-                                <div class="modal-body text-center ">
-                                    <img src="" alt=""  >
-                                  
-                                    <form action="suscriptor.html" methon="GET">
-                                    <img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-256.png" alt="" width="100">
-                        
-                        
-                                        <div class="form-group">
-                                        <label for="txtRut">RUT:</label>
-                                        <input  placeholder="Ej: 12345678-9" class="form-control" type="number" id="txtRut" name="txtRut">
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="txtNombre">Nombres de usuario</label>
-                                        <input  placeholder="Ej: Pablo Herniquez" class="form-control" type="text" id = "txtNombre" name ="txtNombre">
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="txtApellido">Contraseña</label>
-                                        <input  placeholder="Ej: Azales 424" class="form-control" type="text" id = "txtNombre" name ="txtNombre">
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="txtTelefono">Telefono:</label>
-                                        <input  placeholder="Ej: +569 12345678" class="form-control" type="number" id = "txtTelefono" name ="txtTelefono">
-                                        </div>
-                                </form>
-                                </div>
-                          
-                                <!-- Modal footer -->
-                                <div class="modal-footer">
-                
-                                  <button type="button" class="btn btn-success" data-dismiss="modal">Registrarse</button>
-                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                                  
-                                </div>
-                              </div>
                             </div>
-                          </div>
+                        </div>
 
 
                     </li>
-                
+
                 </ul>
             </div>
         </div>
     </nav>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="IMG/perro4.jpg" alt="Card image">
+                    <div class="card-body">
 
 
 
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li class="nav-item">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="IMG/perro2.jpeg" alt="Card image">
+                    <div class="card-body">
+
+
+
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li class="nav-item">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="IMG/perro3.jpg" alt="Card image">
+                    <div class="card-body">
+
+
+                    </div>
+                </div>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="container mt-100">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                        <div class="inner">
+                            <div class="main-img"><img src="https://http2.mlstatic.com/medalla-chapita-llavero-mascotas-perros-gatos-foto-souvenirs-D_NQ_NP_845227-MLA28239414256_092018-F.jpg" alt="Category"  width="200"></div>
+                            <div class="thumblist"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_Kw_LbekQE1XjiZCHGaaus34MisvsxFsJQ&usqp=CAU" alt="Category"  width="100"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSM1ekieRIDCe4Ak9hbPmw2dQd73WMzV4LJg&usqp=CAU" alt="Category"  width="100"></div>
+                        </div>
+                    </a>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Medallas de identificacion</h4>
+                        <p class="text-muted">Precios desde $2.500</p><a class="btn btn-outline-primary btn-sm" href="#" data-abc="true">Ver Productos</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                        <div class="inner">
+                            <div class="main-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BWYu0cJC1teD0l0AiIlKFv6jQYjfoYC4iFqhDj4ILoV5b9Xs_vSBXoHKyDrY--Npp7c&usqp=CAU" alt="Category" width="200"></div>
+                            <div class="thumblist"><img src="data:image/jpeg;base64,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" alt="Category" width="180"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWdOMWHS8Lv6s_iGLiVg9M5SKKd3n1ZQnE-GDwWaZ9WCTpIHGoIqropraSVpbTV0sh5ww&usqp=CAU" alt="Category" width="100"></div>
+                        </div>
+                    </a>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Correas</h4>
+                        <p class="text-muted">Precios desde $3.500</p><a class="btn btn-outline-primary btn-sm" href="#" data-abc="true">Ver Productos</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                        <div class="inner">
+                            <div class="main-img"><img src="https://sc04.alicdn.com/kf/Hc3b89137c73b4f589276bb3451e5af8ap.jpg" alt="Category"  width="200" ></div>
+                            <div class="thumblist"><img src="https://s.cornershopapp.com/product-images/2182809.png?versionId=NZmFqNoGXY8Vzhqdf8H7Q.Y9RFkW2gZa" alt="Category" width="100"><img src="https://cf.shopee.cl/file/957746931fc3bd2c535ca9f6c324c94c" alt="Category" width="100"></div>
+                        </div>
+                    </a>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Bandanas</h4>
+                        <p class="text-muted">Precios desde $1.500</p><a class="btn btn-outline-primary btn-sm" href="#" data-abc="true">Ver Productos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-info text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/fundacionanimalia/?hl=es" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Subscribirse a nuestro boletin</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Correo</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribirse
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Pagina Web dedicada exclusivamente a la adopcion y la adquicision de animales domesticos y exoticos
+                    asi como tambien alimentos para estos.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+        </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgb(167, 98, 54);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Pet Shop.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 </body>
 
