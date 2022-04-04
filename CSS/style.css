@@ -50,4 +50,61 @@
 }
 
 
+<!---->
 
+.jumbotron9 h1 {
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 70pxpx;
+    text-align: center;
+    color: blue;
+    background-color: skyblue;
+    border-radius: 100px;
+    padding: 3px;
+    background-size: 85% ;
+
+}
+
+
+
+.jumbotron9 p {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    background-color: skyblue;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+
+}
+
+
+
+.carousel-item {
+
+    text-align: center;
+    margin-bottom: 60px;
+
+
+}
+
+
+
+
+.inlineimage {
+    max-width: 470px;
+    margin-right: 8px;
+    margin-left: 10px
+}
+
+.images {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    left: 20px;
+    text-align: center
+}
