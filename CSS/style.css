@@ -189,3 +189,13 @@
         background-color: cadetblue;
         border-radius: 20px;
     }
+
+    .jumbotronhis {
+    
+        color: white;
+        text-align: center;
+        background-color: chocolate;
+        border-radius: 20px;
+        font-family: cursive;
+
+    }
